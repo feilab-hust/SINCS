@@ -1,9 +1,7 @@
-# SINCS compression package for compressing arbitrary-dimensional biomedical images using Semantic redundancy-aware implicit neural compression proposed in our paper:(https://www.biorxiv.org/content/10.1101/2023.08.22.554284v2)
+# SINCS 
+Compressing arbitrary-dimensional biomedical images using Semantic redundancy-aware implicit neural compression proposed in our paper:(https://www.biorxiv.org/content/10.1101/2023.08.22.554284v2)
 ![Example](./Example/pipeline.png)
-## SINCS compression package for compressing arbitrary-dimensional biomedical images using Semantic redundancy-aware implicit neural compression proposed in our paper:
 
-[Semantic redundancy-aware implicit neural compression for multidimensional biomedical image data](https://doi.org/10.1038/s42003-023-05636-x)
-![Example](./example/example.png)
 
 
 
