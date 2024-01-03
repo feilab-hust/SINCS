@@ -1,5 +1,6 @@
 # SINCS 
 Compressing arbitrary-dimensional biomedical images using Semantic redundancy-aware implicit neural compression proposed in our paper:(https://www.biorxiv.org/content/10.1101/2023.08.22.554284v2)
+
 ![Example](./Example/pipeline.png)
 
 
@@ -56,21 +57,20 @@ Afer entering the baisc parameters, users can train the SINCS model yourself, ru
   ```
   python ./main.py
   ```
-The compressed result of each group will be located in : logs/expname/ image_${i:05d}/ The_Final.tar
-The overall decompression results will be located in : logs/expname/decompression/
-
-    #### 3. Weight residual encoding: ####
+The compressed result of each group will be located in : **logs/expname/ image_${i:05d}/ The_Final.tar**
+The overall decompression results will be located in : **logs/expname/decompression/**
+   #### 3. Weight residual encoding: ####
 Furthermore, the user can obtain a larger compression ratio by using residual entropy coding，firstly run：
   ```
   python ./weight_residual_encoding.py
   ```
-The residual compressed result of each group will be located in : logs/expname/ residual/
+The residual compressed result of each group will be located in : **logs/expname/ residual/**
 and then the upper results can be further compressed using lossless entropy coding such as 7-zip.
 If users want to decompress and recover the original compressed file, they need to first decode the corresponding lossless entropy, and then run:
   ```
   python ./weight_residual_decoding.py
   ```
-The residual decompressed result of each group will be located in : logs/expname/ residual/decompressed/
+The residual decompressed result of each group will be located in : **logs/expname/ residual/decompressed/**
 
 #### Note:Here we do not provide the use of lossless entropy encoding, the user can choose the appropriate lossless entropy encoding according to the needs of users themselves.
 
