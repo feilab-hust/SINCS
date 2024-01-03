@@ -1,7 +1,7 @@
 # SINCS 
 Compressing arbitrary-dimensional biomedical images using Semantic redundancy-aware implicit neural compression proposed in our paper:(https://www.biorxiv.org/content/10.1101/2023.08.22.554284v2)
 
-![Example](./Example/pipeline.png)
+<img src="./example/example.png" width="80%"/>
 
 
 
