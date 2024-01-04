@@ -57,7 +57,7 @@ Afer entering the baisc parameters, users can train the SINCS model yourself, ru
   ```
   python ./main.py
   ```
-The compressed result of each group will be located in : **logs/expname/ image_${i:05d}/ The_Final.tar**
+The compressed result of each group will be located in : **logs/expname/ image_${i:03d}/ The_Final.tar**
 The overall decompression results will be located in : **logs/expname/decompression/**
    #### 3. Weight residual encoding: ####
 Furthermore, the user can obtain a larger compression ratio by using residual entropy coding，firstly run：
