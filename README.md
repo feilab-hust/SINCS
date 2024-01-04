@@ -76,3 +76,4 @@ The residual decompressed result of each group will be located in : **logs/expna
 
 ### Example results
 <img src="./Example/result.png" width="80%"/>
+<img src="./Example/example.gif" width="80%"/>
