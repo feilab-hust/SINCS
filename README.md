@@ -66,6 +66,7 @@ Furthermore, the user can obtain a larger compression ratio by using residual en
   ```
 The residual compressed result of each group will be located in : **logs/expname/ residual/**
 and then the upper results can be further compressed using lossless entropy coding such as 7-zip.
+
 The original compressed result of each group will be located in : **logs/expname/ original/**
 
 #### Note:Here we do not provide the use of lossless entropy encoding, the user can choose the appropriate lossless entropy encoding according to the needs of users themselves.
