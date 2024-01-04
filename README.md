@@ -74,3 +74,5 @@ The residual decompressed result of each group will be located in : **logs/expna
 
 #### Note:Here we do not provide the use of lossless entropy encoding, the user can choose the appropriate lossless entropy encoding according to the needs of users themselves.
 
+### Example results
+<img src="./Example/result.png" width="80%"/>
