@@ -31,7 +31,7 @@ Compressing arbitrary-dimensional biomedical images using Semantic redundancy-aw
 ## How to use
 ### Compress data with SINCS
    #### 1. Compress data preparation: ####
-  We provide example data for SINCS compression. Please download from [Google Drive](https://drive.google.com/drive/folders/1G6OPIjJ8WmdAnEEpEy0PhEHjCHQ6UQps).
+  We provide example data for SINCS compression. Please download from [Google Drive](https://drive.google.com/drive/folders/1f-5tHP_RGY8UnNs0LF4C-icH5Brpb_p3).
 #### Note: If users want to use their own compressed dataset, they can create a separate folder or replace the data in the example data folder. And be careful to change the folder path in the transforms_train.json file.
    #### 2. Network training: ####
 Before training SINCS, users need to check whether the installed environment was activated or not. Then, users need to modify the parameters in network configuration files: [SINCS_Compression_3D.cfg](./configs/SINCS_Compression_3D.cfg) and [SINCS_Compression_4D.cfg](./configs/SINCS_Compression_4D.cfg). The detailed descriptions of these main parameters are listed below:
